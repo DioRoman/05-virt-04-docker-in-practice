@@ -1,7 +1,7 @@
 # 05-virt-04-docker-in-practice
-05-virt-04-docker-in-practice
+# 05-virt-04-docker-in-practice
 
-Задача 1
+## Задача 1
 
 sudo -i
 
@@ -32,7 +32,7 @@ docker build -f /root/shvirtd-example-python/Dockerfile.python -t shvirtd-exampl
 
 docker run shvirtd-example-python
 
-Задача 2
+## Задача 2
 
 yc container registry test
 
@@ -42,7 +42,7 @@ docker push cr.yandex/crptcho4q9mntnhcce91/shvirtd-example-python:new
 
 ![Снимок экрана 2025-05-24 134418](https://github.com/user-attachments/assets/755ca11d-e59a-4e6d-9a19-4f2af8fd1f49)
 
-Задача 3
+## Задача 3
 
 touch /root/Netology/shvirtd-example-python/compose.yaml
 
@@ -57,7 +57,7 @@ SELECT * from requests LIMIT 10;
 
 ![Снимок экрана 2025-05-24 134910](https://github.com/user-attachments/assets/1b935db2-f93a-457d-8bf3-e94f44755d5f)
 
-Задача 4 
+## Задача 4 
 
 touch run.sh
 
@@ -76,7 +76,7 @@ curl -L http://158.160.176.117:8090
 
 ![Снимок экрана 2025-05-24 151302](https://github.com/user-attachments/assets/f47d0699-d48c-4371-a28c-8b495b9ff48f)
 
-Задача 6
+## Задача 6
 
 docker pull hashicorp/terraform:latest
 
