@@ -3,7 +3,7 @@
 
 ## Задача 1
 
-`sudo -i`
+```sudo -i```
 
 `mkdir Netology`
 
