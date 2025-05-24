@@ -3,34 +3,35 @@
 
 ## Задача 1
 
-sudo -i
+`sudo -i`
 
-mkdir Netology
+`mkdir Netology`
 
-cd Netology
+`cd Netology`
 
-git clone https://github.com/DioRoman/shvirtd-example-python
+`git clone https://github.com/DioRoman/shvirtd-example-python`
 
-cd ..
+`cd ..`
 
-docker pull python:3.9-slim
+`docker pull python:3.9-slim`
 
-touch root/Netology/shvirtd-example-python/Dockerfile.python
-touch root/Netology/shvirtd-example-python/.dockerignore
-
+`touch root/Netology/shvirtd-example-python/Dockerfile.python`
+`touch root/Netology/shvirtd-example-python/.dockerignore`
+```
 echo "FROM python:3.9-slim
 
 COPY . .
 RUN pip install -r requirements.txt
 CMD [\"python\", \"main.py\"]" >> root/Netology/shvirtd-example-python/Dockerfile.python
-
+```
+```
 echo "*
 !main.py
-!requirements.txt" >> root/Netology/shvirtd-example-python/.dockerignore
+!requirements.txt" >> root/Netology/shvirtd-example-python/.dockerignore```
+```
+`docker build -f /root/shvirtd-example-python/Dockerfile.python -t shvirtd-example-python .`
 
-docker build -f /root/shvirtd-example-python/Dockerfile.python -t shvirtd-example-python .
-
-docker run shvirtd-example-python
+`docker run shvirtd-example-python`
 
 ## Задача 2
 
