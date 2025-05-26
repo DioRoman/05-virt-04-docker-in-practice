@@ -94,7 +94,8 @@ sudo apt install ./dive_${DIVE_VERSION}_linux_amd64.deb
 
 `tar xf e0f55b34ca5dc362ab5757d39045589d45aaa6ffe70a3bb2d88b2939592a5806`
 
-![Снимок экрана 2025-05-26 220902](https://github.com/user-attachments/assets/01469ac0-829a-4a38-818b-f35e26731c43)
+![Снимок экрана 2025-05-24 160424](https://github.com/user-attachments/assets/e63e6968-8610-4cf9-a743-efc031c0272b)
+![Снимок экрана 2025-05-24 165213](https://github.com/user-attachments/assets/f6f49fa6-3ea8-474a-a7af-ef7d8242f871)
 
 ## Задача 6.1
 
@@ -106,7 +107,6 @@ sudo apt install ./dive_${DIVE_VERSION}_linux_amd64.deb
 
 `ls -all | grep terra`
 
-![Снимок экрана 2025-05-24 160424](https://github.com/user-attachments/assets/e63e6968-8610-4cf9-a743-efc031c0272b)
-![Снимок экрана 2025-05-24 165213](https://github.com/user-attachments/assets/f6f49fa6-3ea8-474a-a7af-ef7d8242f871)
+![Снимок экрана 2025-05-26 220902](https://github.com/user-attachments/assets/01469ac0-829a-4a38-818b-f35e26731c43)
 
 
